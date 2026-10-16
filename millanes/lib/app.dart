@@ -8,7 +8,7 @@ class SemesterProjectApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'Your Approved System Title',
+    title: 'HerbaVision',
     initialRoute: '/',
     routes: {
       '/': (_) => const HomeScreen(),
